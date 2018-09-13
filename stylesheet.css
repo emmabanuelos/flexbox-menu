@@ -56,18 +56,22 @@ p {
 }
 
 .logo {
-  border: 1px solid #3E3637;
+
   width: 60px;
   height: 60px;
 }
 
 .restaurant-name {
   padding-left: 10px;
-  
+
 }
 
 .menu-item-container {
-  border: 1px solid #3E3637;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
 }
 
 .menu-item {
@@ -75,6 +79,7 @@ p {
   padding: 2em;
 /*   border: 1px solid #3E3637; */
   border: 1px solid #3E3637;
+
 }
 
 .img-container {
@@ -94,28 +99,28 @@ img {
 
 .option-container {
   display: flex;
-  flex-direction: column-reverse;
-  width: 370px;
+  flex-direction: row;
+  width: 350px;
   margin-bottom: 2em;
-  border: 2px solid pink;
+
 }
 
 .description-container {
   width: 60%;
-  border: 2px solid pink;
+
 }
 
 .footer-container {
-  border: 2px solid pink;
+
 }
 
 .find-us {
   padding: 1em;
-  border: 2px solid pink;
+
 }
 
 .social {
   height: 100px;
   padding: 1em;
-  border: 2px solid pink;
+
 }
